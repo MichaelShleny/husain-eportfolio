@@ -51,8 +51,10 @@ const sr = ScrollReveal({
 
 /*SCROLL HOME*/
 sr.reveal('.home__title', {})
+sr.reveal('.home__text', {delay: 400})
 sr.reveal('.home__scroll', {delay: 200})
 sr.reveal('.home__img', {origin:'right', delay: 400})
+
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img', {delay: 500})
@@ -60,7 +62,6 @@ sr.reveal('.about__subtitle', {delay: 300})
 sr.reveal('.about__profession', {delay: 400})
 sr.reveal('.about__text', {delay: 500})
 sr.reveal('.about__social-icon', {delay: 600, interval: 200})
-
 
 
 /*SCROLL owner*/
@@ -74,6 +75,20 @@ sr.reveal('.contact__subtitle', {})
 sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
+
+
+/*SCROLL SERVICES*/
+sr.reveal('.contact__subtitle', {})
+sr.reveal('.contact__text', {interval: 200})
+sr.reveal('.skills__subtitle', {delay: 400})
+sr.reveal('.skills__name', {delay: 600})
+
+
+/*SCROLL TEAM*/
+sr.reveal('.card-text', {interval: 200})
+sr.reveal('.husain', {delay: 400})
+sr.reveal('.roy', {delay: 400})
+
 
 
 
